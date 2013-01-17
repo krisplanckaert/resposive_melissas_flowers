@@ -1,0 +1,39 @@
+/** fonts import **/
+@import url('../fonts/asenine/stylesheet.css');
+
+*{margin:0px}
+img{width: 100%;}
+body{background:url('../images/bg.png') repeat-x #141e1b;font-family:"Myriad Pro"}
+figcaption{display:none;}
+#container{margin:0 auto; max-width: 1000px;}
+#container #top{float:left;width:91.6%;margin-left:42px;margin-top:10px;clear:right;}
+#container #top,#container #top ul li a{color:#fff;font-family:"Times New Roman", Times, serif}
+#container #top .date{float:left;width:auto;}
+#container #top ul{float:right;}
+#container #top ul li{display:inline;}
+
+#content{float:left;width:91.6%;margin:10px 42px;background:url('../images/bg2.png');border:1px solid #959d97}
+#content header{float:left;width:91.6%;}
+#content header h1{float:left;background:url('../images/logo.png');width:25%;height:110px;text-indent:-999px;margin-top:10px}
+#content header nav{float:left;width:66.6%;height:60px;margin-top:50px}
+#content header nav ul li{float:left;width:16.8%;height:23px;padding:16px 0px; background:url('../images/nav_bg.png'); text-align:center;list-style-type:none;margin-right:10px}
+#content header nav ul li a{font-family:asenineregular;font-size:23px;color:#282e29;text-decoration:none;}
+
+#content #slider{float:left;width:82.7%;height:327px;margin:20px 45px;border:1px solid #959d97}
+
+#content #creations, #content #hot{float:left;width:82.7%;margin:0px 45px;}
+#content #creations h1{font-family:asenineregular;font-size:36px;color:#282e29;}
+#content .border{background:url('../images/border_creations.png');text-align:center;height:270px;margin-bottom:20px;}
+#content #creations article{float:left;width:16%; margin:23px;}
+#content #creations img{border:1px solid #adb6a9;}
+#content #hot article{float:left;width:26%;text-align:center;margin-right:10px}
+#content #hot h1{font-family:asenineregular;font-size:23px;color:#282e29;margin-bottom:5px;float:left;}
+#content #hot p{text-align:justify;}
+#content #hot figure{margin-bottom:10px;}
+#content #hot a{margin:20px 40px;display:block;font-family:asenineregular;font-size:23px;color:#282e29;text-decoration:none;width:16.8%;height:23px;padding:16px 0px; background:url('../images/nav_bg.png');}
+
+footer{float:left;width:91.6%;margin-left:42px;}
+footer p{color:#fff;font-size:11px;}
+
+.green{color:#063; font-family:"Times New Roman", Times, serif}
+.brown{color: #630; font-family:"Times New Roman", Times, serif}
